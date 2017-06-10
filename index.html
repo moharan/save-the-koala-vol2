@@ -130,8 +130,9 @@ Dick Marks, AKF’s creative supporter</p>
 	</div>
 </section>
 <!-- Carousel -->
+<!-- No se como hacerlo que quede al 100% sin lados blancos -->
 <section>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -145,7 +146,7 @@ Dick Marks, AKF’s creative supporter</p>
   <!-- Carga de imagenes -->
   <div class="carousel-inner" role="listbox"><!-- active -->
     <div class="item active">
-      <img src="img/uno.jpg" alt="01">
+      <img src="img/uno.jpg" alt="01" class="img-responsive">
       <div class="carousel-caption">
         Imagen de inicio y siempre numero 1
       </div>
@@ -192,7 +193,8 @@ Dick Marks, AKF’s creative supporter</p>
 	        <p><b>1</b> visits per month</p>
 	        <hr>
 	        <p><b>PublicAPI</b> access</p>
-	        <button type="button" class="btn color01">DONATE</button>
+	        <button type="button" class="btn color01" data-toggle="modal" data-target="#myModal02">DONATE</button>
+
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
 		<h6>GROUPS</h6>
@@ -208,7 +210,7 @@ Dick Marks, AKF’s creative supporter</p>
 	        <p><b>2</b> visits per month</p>
 	        <hr>
 	        <p><b>PublicAPI</b> access</p>
-	        <button type="button" class="btn color01">DONATE</button>
+	        <button type="button" class="btn color01" data-toggle="modal" data-target="#myModal02">DONATE</button>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
 		<h6>COMPANIES</h6>
@@ -268,6 +270,21 @@ Dick Marks, AKF’s creative supporter</p>
       </div>
       <div class="modal-body">
         ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn color01" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 02 -->
+<div class="modal fade" id="myModal02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Tu donación se realizo con exito</h4>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn color01" data-dismiss="modal">Close</button>
