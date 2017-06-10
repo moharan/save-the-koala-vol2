@@ -92,6 +92,15 @@ army green: 41521F;
 	color: #fff;
 	font-size: 1em;
 }
+/* collapse */
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-top: 20px;
+    background-color: #41521f;
+    color: #fff;
+    border: none;
+}
 /*Footer*/
 footer {
 	padding: 75px 0;

@@ -9,3 +9,5 @@ $('#myModal').on('shown.bs.modal', function () {
 })
 /*Carousel*/
 $('.carousel').carousel()
+/*Collapse*/
+$('.collapse').collapse()
